@@ -4,10 +4,6 @@
  * businessAdd (numberOfDays)
  */
 (function () {
-  var moment;
-  moment = (typeof require !== "undefined" && require !== null) &&
-           !require.amd ? require("moment") : this.moment;
-
   moment.fn.businessDiff = function ( param ) {
     param = moment(param);
 
